@@ -1,8 +1,7 @@
 """
 Calculator library containing basic math operations.
 """
-import pytest
-import sys
+
 def add(first_term, second_term):
     return first_term + second_term
 
@@ -17,6 +16,6 @@ if __name__ == '__main__':
         rc = 0
     except Exception as e:
         print('Error: %s' % e, file=sys.stderr)
-    sys.exit(rc)
+    
 
 
